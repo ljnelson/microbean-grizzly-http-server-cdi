@@ -29,7 +29,7 @@ import org.glassfish.grizzly.ssl.SSLEngineConfigurator;
  * href="http://docs.jboss.org/cdi/spec/2.0-PFD/cdi-spec.html#producer_method">producer
  * methods</a> that manufacture certain Grizzly-related objects.
  *
- * @author <a href="http://about.me/lairdnelson"
+ * @author <a href="https://about.me/lairdnelson"
  * target="_parent">Laird Nelson</a>
  */
 @ApplicationScoped

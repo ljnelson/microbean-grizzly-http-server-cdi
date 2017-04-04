@@ -19,9 +19,19 @@
  * Provides classes and interfaces for integrating various
  * Grizzly-related classes into CDI.
  *
- * @author <a href="http://about.me/lairdnelson"
- * target="_parent">Laird Nelson</a>
+ * <p>This package contains non-{@code public} CDI beans that
+ * {@linkplain javax.enterprise.inject.Produces produce} instances of
+ * the following classes:</p>
  *
- * @see org.microbean.grizzly.http.server.cdi.Producers
+ * <ul>
+ *
+ * <li>{@link org.glassfish.grizzly.ssl.SSLContextConfigurator}</li>
+ *
+ * <li>{@link org.glassfish.grizzly.ssl.SSLEngineConfigurator}</li>
+ *
+ * </ul>
+ *
+ * @author <a href="https://about.me/lairdnelson"
+ * target="_parent">Laird Nelson</a>
  */
 package org.microbean.grizzly.http.server.cdi;
